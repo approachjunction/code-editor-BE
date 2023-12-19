@@ -2,7 +2,7 @@ const express = require("express");
 const compileCode = require("../controllers/compileCode");
 const router = express.Router();
 
-router.get("/get", (req, res) => {
+router.get("/", (req, res) => {
   res.send("welcome to approach junction");
 });
 
